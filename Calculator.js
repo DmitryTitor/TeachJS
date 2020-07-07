@@ -1,6 +1,6 @@
 'use strict';
 
-class calculator{
+class Calculator{
     
     _state;
 
@@ -35,8 +35,4 @@ class calculator{
 
 }
 
-let calculatorObject = new calculator(5).multiplication(2).subtraction(4).state;
-console.log(calculatorObject);
-
-
-
+module.exports = {Calculator};
