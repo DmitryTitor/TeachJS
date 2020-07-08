@@ -1,0 +1,62 @@
+div { 
+    /*border: 4px groove black; /* Параметры границы */
+    background: #d1c8c8; /* Цвет фона */
+    /*padding: 10px;*/ /* Поля вокруг текста */
+}
+
+.page {
+    border: 4px groove black;
+}
+
+.top {
+    border-bottom: 2px groove black;
+    padding: 0px; /* Поля вокруг текста */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infoAll {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch    ;
+}
+
+.infoWords {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner {
+    border: 2px groove black;
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.photo {
+    border: 2px groove black;
+    display: flex;
+    width: 50%;
+    height: 10%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom {
+    border-top: 2px groove black;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
