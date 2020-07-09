@@ -13,7 +13,6 @@ function getObject() {
         }
     }
 }
-
 const {getCounterValue, incCounter} =  getObject()
  
 
