@@ -15,12 +15,5 @@ function getObject() {
 }
 
 const {getCounterValue, incCounter} =  getObject()
-console.log('Counter =', getCounterValue())
-incCounter()
-incCounter()
-incCounter()
-incCounter()
-incCounter()
-console.log('Counter =', getCounterValue())
  
 
