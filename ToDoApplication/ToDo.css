@@ -1,0 +1,80 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    border: 1px solid black;
+    width: 500px;
+    padding: 0 50px;
+    text-align: center;
+    background-color: rgb(169, 210, 248);
+    color: rgb(0, 67, 192);
+}
+
+main {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 50px 50px;
+    background-color: rgb(169, 210, 248);
+}
+
+footer {
+    border: 1px solid black;
+    width: 550px;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(169, 210, 248);
+    color: rgb(0, 67, 192);
+}
+
+.addTaskForm {
+    border: 1px solid black;
+    border-radius: 50px 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.input {
+    border: 1px solid black;
+    border-radius: 50px 20px;
+    text-align: center;
+    background-color: white;
+    width: 85%;
+    padding: 5px;
+}
+
+.allTasks {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 85%;
+}
+
+.allTasks__task {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.allTasks__time {
+    margin-right: 10px;
+}
+
+.allTasks__ok {
+    width: 20px;
+}
