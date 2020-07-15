@@ -1,26 +1,30 @@
 body {
-    
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
 }
 
 header {
     border: 1px solid black;
-    width: 500px;
+    width: 90%;
     padding: 0 50px;
     text-align: center;
-    background-color: rgb(169, 210, 248);
-    color: rgb(0, 67, 192);
+    background-color: rgb(16, 97, 173);
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 150%;
 }
 
 main {
-    width: 500px;
+    width: 90%;
+    height: 450px;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 0 50px 50px 50px;
     background-color: rgb(169, 210, 248);
@@ -28,13 +32,15 @@ main {
 
 footer {
     border: 1px solid black;
-    width: 550px;
-    padding: 0 25px;
+    width: 90%;
+    padding: 0 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(169, 210, 248);
-    color: rgb(0, 67, 192);
+    background-color: rgb(16, 97, 173);
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-weight: bolder;
 }
 
 .addTaskForm {
@@ -57,12 +63,14 @@ footer {
 .allTasks {
     display: flex;
     flex-direction: column;
+    text-align: center;
     padding-top: 50px;
     width: 85%;
 }
 
 .allTasks__task {
     padding: 10px;
+    margin: 5px;
     border: 1px solid black;
     border-radius: 50px 20px;
     display: flex;
@@ -71,8 +79,13 @@ footer {
     background-color: white;
 }
 
+.allTasks__task:hover {
+    background-color: rgb(16, 97, 173);
+    color: rgb(255, 255, 255);
+}
+
 .allTasks__time {
-    margin-right: 10px;
+    width: 20px;
 }
 
 .allTasks__ok {
