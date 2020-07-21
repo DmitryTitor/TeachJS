@@ -1,45 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" class="page">
+<head class="head">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="ToDo.css">
     <title>ToDo</title>
 </head>
 
-<body>
+<body class="body">
     
-    <header>TO DO</header>
+    <header class="header">TO DO</header>
 
-    <main>
+    <main class="mainContent">
         <p>Добавьте новую задачу:</p>
         <input type="text" class="input" placeholder="Новая задача...">
-        <div class="allTasks">Задачи:
-            <div class="allTasks__task">
-                <div class="allTasks__time">16:45</div>
-                <div class="allTasks__item">Выпить пиво</div>
-                <div class="allTasks__completed"><img src="img/01.png" class="allTasks__ok"></div>
+        <button class="button" type="button">Добавить</button>
+        <div class="allTasks" id="taskList">Задачи:
+            <div class="allTasks__taskWithArrow">
+                <div class="allTasks__arrow">↺</div>
+                <div class="allTasks__task">
+                    <div class="allTasks__time">16:45</div>
+                    <div class="allTasks__item">Выпить пиво</div>
+                    <div class="allTasks__completed"><img src="img/01.png" class="allTasks__ok"></div>
+                </div>
+            </div>    
+            
+            <div class="allTasks__taskWithArrow">
+                <div class="allTasks__arrow">↺</div>
+                <div class="allTasks__task">
+                    <div class="allTasks__time">17:05</div>
+                    <div class="allTasks__item">Погладить кота</div>
+                    <div class="allTasks__completed"><img src="img/01.png" class="allTasks__ok"></div>
+                </div>
             </div>
-                
-            <div class="allTasks__task">
-                <div class="allTasks__time">17:05</div>
-                <div class="allTasks__item">Погладить кота</div>
-                <div class="allTasks__completed"><img src="img/01.png" class="allTasks__ok"></div>
-            </div>
-                
-            <div class="allTasks__task">
-                <div class="allTasks__time">18:43</div>
-                <div class="allTasks__item">Выпить пиво</div>
-                <div class="allTasks__completed"><img src="img/01.png" class="allTasks__ok"></div>
+
+            <div class="allTasks__taskWithArrow">
+                <div class="allTasks__arrow">↺</div>
+                <div class="allTasks__task">
+                    <div class="allTasks__time">18:43</div>
+                    <div class="allTasks__item">Выпить пиво</div>
+                    <div class="allTasks__completed"><img src="img/01.png" class="allTasks__ok"></div>
+                </div>    
             </div>    
         </div>
     </main>
     
-    <footer>
-        <div>Активные задачи: </div>
-        <div>Завершенные задачи: </div>
+    <footer class="footer">
+        <div class="footer__activeTasks">Активные задачи: </div>
+        <div class="footer__completedTasks">Завершенные задачи: </div>
     </footer>
 
 
-
+    <script src="ToDo.js"></script>
 </body>
 </html>
