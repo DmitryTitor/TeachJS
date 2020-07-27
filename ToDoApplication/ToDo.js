@@ -87,6 +87,12 @@ class ToDo {
       this.backArrow.forEach(arrow => {
         arrow.addEventListener('click', event => this.backupStatus(event))
       })
+      this.inputField.addEventListener('keyup', event => {
+        if(event.keyCode == 13){
+          this.button.click()
+          this.inputField.value = ''
+      }
+      })        
       
     }
     
@@ -156,6 +162,7 @@ class ToDo {
       } else {
         const text = createTextTask(textInput.value)
         const okImg = createImgTask('<img src="img/01.png" class="allTasks__ok">')
+        this.inputField.value = ''
         newTask.append(time)
         newTask.append(text)
         newTask.append(okImg)
