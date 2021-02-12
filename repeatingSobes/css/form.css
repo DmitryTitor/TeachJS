@@ -1,0 +1,8 @@
+.head, .foot {
+  display: flex;
+  flex-direction: column;  
+}
+
+.head > *, .foot > * {
+  margin: 5px;
+}

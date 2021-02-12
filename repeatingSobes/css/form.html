@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  
+  <form class="form" action="#">
+    <fieldset class="head">
+      <legend>Верхний раздел</legend>
+      <label for="id1">Ваше имя:</label>
+      <input type="text" id="id1">
+
+      <div class="gender_div">
+        <label>Ваш пол: </label>
+        <label>Муж
+          <input type="radio" name="gender">
+        </label>
+        <label>Жен
+          <input type="radio" name="gender">
+        </label>
+      </div>
+
+      <label>Образование</label>
+      <label>Среднее специальное
+        <input type="checkbox" name="edu">
+      </label>
+      <label>Высшее неполное
+        <input type="checkbox" name="edu">
+      </label>
+      <label>Высшее полное
+        <input type="checkbox" name="edu">
+      </label>
+
+      <label>Ваш любимый цвет
+        <input type="color">
+      </label>
+
+      <label>Дата вашего рождения
+        <input type="date">
+      </label>
+
+      <label>Текущее время
+        <input type="time">
+      </label>
+
+      <label>Выша электронная почта
+        <input type="email">
+      </label>      
+    </fieldset>
+
+    <fieldset class="foot">
+      <legend>Нижний раздел</legend>
+      <label>Ваш город
+        <select>
+          <option value="Рязань">Рязань</option>
+          <option value="Саратов">Саратов</option>
+          <option value="Москва">Москва</option>
+        </select>
+      </label>
+
+      <label>Загадайте число 
+        <input type="number">
+      </label>
+
+      <label>Диапозон вашего веса
+        <input type="range">
+      </label>
+
+      <label>url 
+        <input type="url">
+      </label>
+
+      <label>Ищем  
+        <input type="search">
+      </label>
+    </fieldset>
+    
+    <button>
+      Отправить
+    </button>
+    
+    <button type="reset">
+      Очистить
+    </button>
+  </form>
+  <a href="mailto:vlad@htmlbook.ru">ВОТ ТУТ ПОЧТА</a>
+
+</body>
+</html>

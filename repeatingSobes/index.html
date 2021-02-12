@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <audio src="song.mp3" controls></audio>
+
+    <video width="400" height="300" controls="controls" poster="">
+        <source src="video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+    </video> -->
+
+    <div class="div1 div">
+        <button class="button1">
+            dddd
+        </button>
+    </div>
+    <div id="fff" class="div2 div cl1 cl2 cl3 cl4 cl5 cl6 cl7 cl8 cl9 cl10 cl11 cl12">2</div>    
+
+    <script>
+        document.body.addEventListener('click', (event) => {
+            alert(event.target + ' ' + event.currentTarget + ' body');
+        }, false);
+        document.querySelector('.div1').addEventListener('click', (event) => {
+            alert(event.target + ' ' + event.currentTarget + ' div1');
+        }, false);
+        document.querySelector('.button1').addEventListener('click', (event) => {
+            alert(event.target + ' ' + event.currentTarget + ' button1');
+        }, false);
+    </script>
+    <!-- <script>
+        document.querySelector('.div1').addEventListener('click', () => alert(2));
+        document.querySelector('.div1').addEventListener('click', () => alert(4));
+        document.querySelector('.div1').onclick = () => alert(1);
+        document.querySelector('.div1').onclick = () => alert(33);
+    </script> -->
+
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/cvjKOKuwRww" frameborder="0" allow="accelerometer; 
+    autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe> -->
+
+</body>
+</html>
